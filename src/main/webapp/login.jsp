@@ -12,8 +12,10 @@
 <html>
 <head>
     <title>Login</title>
+    <jsp:include page="partials/style.jsp"/>
 </head>
 <body>
+<jsp:include page="partials/navbar.jsp"/>
 <form method="POST" action="./profile.jsp">
     <input type="text" id="username" name="username">
     <label for="username">Enter username: </label>
@@ -21,5 +23,7 @@
     <label for="password">Enter password: </label>
     <button type="submit">Login</button>
 </form>
+<jsp:include page="partials/footer.jsp"/>
+
 </body>
 </html>
