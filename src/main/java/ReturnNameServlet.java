@@ -1,0 +1,4 @@
+
+@webservlet
+public class ReturnNameServlet {
+}
