@@ -9,6 +9,7 @@ public class DaoFactory {
         }
         return adsDao;
     }
+
     public static Contacts contactsDoa() {
         if (contactsDoa == null) {
             contactsDoa = new ContactListDao();
